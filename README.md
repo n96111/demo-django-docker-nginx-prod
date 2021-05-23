@@ -8,6 +8,6 @@ TODO:
 	- Add server url or ip address to docker-compose-deploy.yml
 	- For Port adjustment: Change incoming port in docker-compose-deploy.yml at proxy
 	- For changes within the app:
-		- docker-compose -f docker-compose-deploy.yml up --build
+		- docker-compose -f docker-compose-deploy.yml up --build -d
 		- [[docker-compose -f docker-compose-deploy.yml build]]
 		- [[docker-compose -f docker-compose-deploy.yml up -d]]
